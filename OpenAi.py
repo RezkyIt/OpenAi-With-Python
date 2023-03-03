@@ -14,8 +14,8 @@ def openai_request(prompt, model, max_tokens=1024, temperature=0.7):
     return response.choices[0].text.strip()
 
 def get_response(message):
-    prompt = f"User: {message}\nAI:"
-    response = openai_request(prompt, "davinci")
+    prompt = f"Chat: {message}\nAI:"
+    response = openai_request(prompt, "text-davinci-003")
     return response
 
 while True:
