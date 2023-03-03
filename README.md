@@ -7,5 +7,7 @@ pip install openai
 
 # device support
 termux✅
+
 kali linux✅
+
 all system
